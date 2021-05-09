@@ -1,0 +1,54 @@
+{
+	"version_nmbr_low": "69:bonk",
+	"version_nmbr_high": 1,
+	"bot_description": "Discord Bot to send memes (and more). Created by EEI-Students@FAU",
+	"extensions": [
+		"jpg",
+		"jpeg",
+		"png",
+		"gif"
+	],
+	"comics": {
+		"xkcd": "https://c.xkcd.com/random/comic/"
+	},
+	"files": {
+		"sentmemes": "sentmemes.txt"
+		},
+	"subreddits": [
+		"dankmemes",
+		"me_irl",
+		"memes",
+		"suspiciouslyspecific",
+		"TittyDrop",
+		"rule34",
+		"boobbounce",
+		"curvy"
+	],
+	"emojis": {},
+	"commands": {
+		"refresh": {
+			"brief": "Refreshes the meme-list",
+			"help": "This command will get the newest memes for you"
+		},
+		"meme": {
+			"brief": "Sends a meme into the channel you requested",
+			"help": "Your message will be deleted and a meme will be sent"
+		},
+		"nsfw": {
+			"brief": "Sends a not safe for work picture ;)",
+			"help": "Your message will be deleted and a naugthy picture will be sent. Use !nsfw on or !nsfw off to turn the spoiler-function on/off"
+		},
+		"comic": {
+			"brief": "WIP: Sends you a random comic",
+			"help": "WIP: Deletes your message and sends a comic. Currently supported comic-sites: xkcd"
+		},
+		"info": {
+			"brief": "Shows current stats",
+			"help": "What do you want more?"
+		},
+		"bonk": {
+			"brief": "Go to horny jail! !bonk <User>",
+			"help": "Usage: !bonk <User>\t Bonks the <User>, probably for good reason"
+		}
+	}
+}
