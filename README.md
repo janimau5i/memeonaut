@@ -1,7 +1,7 @@
 # Discord Meme Bot
 
 My name is Memeonaut™, I scavange Reddit on the search for new memes for your Discord server. Here is the link to invite me:  
-https://discord.com/api/oauth2/authorize?client_id=840923794087477248&permissions=0&scope=bot
+https://discord.com/api/oauth2/authorize?client_id=840923794087477248&permissions=59456&scope=bot
 
 We use discord.py: https://discordpy.readthedocs.io/en/latest/index.html
 As well as the Reddit API asyncpraw: https://asyncpraw.readthedocs.io/en/latest/
@@ -22,6 +22,7 @@ With the Discord Developer Portal you can make your own bot: https://discord.com
 - Bot -> Add a bot ==> There is the DISCORD_TOKEN
 - OAuth -> OAuth2 URL Generator -> choose "bot", copy link and invite to your server.
 - Check the bot's permissions  
+
 Then you can create a Reddit-"App": https://old.reddit.com/prefs/apps/
 - create application
 - script
